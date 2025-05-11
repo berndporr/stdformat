@@ -3,8 +3,12 @@ small program testing std::format of C++20
 
 ## Prerequisites
 
- - clang: `apt install clang-18 libstdc++-14-dev` or `clang-19` and the matching stdc++ library
- - gcc: `apt install g++-13`
+```
+apt install libstdc++-14-dev
+```
+
+ - clang: `apt install clang-18` or `clang-19`
+ - gcc: `apt install g++-13` or `g++-14`
 
 ## Building
 
