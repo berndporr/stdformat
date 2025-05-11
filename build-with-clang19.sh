@@ -1,4 +1,3 @@
 rm -rf CMakeCache.txt Makefile
-CXX=/usr/bin/clang++-19 cmake .
+CXX=/usr/bin/clang++-19 CXXFLAGS="-stdlib=libc++" cmake .
 make
-
