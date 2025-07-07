@@ -10,11 +10,11 @@ int main()
     const std::string myName = "Bernd";
     
     // Python style formatting of the output:
-    std::string tmp = std::format("I'm {} and my favorite number is {}.",
+    std::string tmp = std::format("I'm {} and my favorite number is {}.\n",
 				  myName,
 				  myNum);
 
-    std::cout << tmp << std::endl;
+    std::cout << tmp;
 
     return 0;
 }
