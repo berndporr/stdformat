@@ -7,7 +7,7 @@ Turns out that gcc under Debian bookworm can't compile
 C++20 but it has clang-19 as an option which can do it
 but only if it uses also the clang libstdc++.
 
-Any later Debian versions are doing fine. Also Ubuntu Noble
+Any later Debian version is doing fine. Also Ubuntu Noble
 has no issues.
 
 ## Prerequisites
